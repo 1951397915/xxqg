@@ -1,7 +1,7 @@
 //engines.execScriptFile("qgxx.js");
 "ui";
 importClass(android.database.sqlite.SQLiteDatabase);
-var path = files.path("/sdcard/xxqg/tiku.db");
+var path = files.path("tiku.db");
 console.setGlobalLogConfig({ "file": "/sdcard/qgxx/运行日志.txt" });
 var storage = storages.create("form") //本地存储文件建立
 var formDefault = {//默认选择项为空
