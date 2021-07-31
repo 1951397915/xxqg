@@ -19,7 +19,7 @@ ui.layout(
         </card>
         <card h='auto' w='*' cardCornerRadius={this.卡片圆角} margin={this.卡片外边距} cardElevation={this.卡片高度} padding={this.卡片内边距}>
             <vertical>
-                <text gravity='center' text='公告1' w='*' h='auto' textSize='18sp' textColor='#ffffff' padding='10dp' bg='{{主题颜色}}'></text>
+                <text gravity='center' text='公告' w='*' h='auto' textSize='18sp' textColor='#ffffff' padding='10dp' bg='{{主题颜色}}'></text>
                 <text padding='8dp' text='{{公告}}' textColor="red" textSize='14sp'></text>
             </vertical>
         </card>
