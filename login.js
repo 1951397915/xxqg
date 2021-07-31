@@ -1,5 +1,5 @@
 "ui";
-var 获取内容 = http.get("https://1951397915.github.io/qiangguoyanzheng/gonggao.txt");
+var 获取内容 = http.get("https://1951397915.github.io/qiangguoyanzheng/公告");
 var 公告 = 获取内容.body.string();
 //机器码
 var jqm=device.getAndroidId()
